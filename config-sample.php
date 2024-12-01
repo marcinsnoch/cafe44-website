@@ -1,6 +1,9 @@
 <?php
 
 $mailConfig = [
+    'debug' => false,
+    'smtp_auth' => true,
+    'smtp_secure' => 'tls', //ssl
     'host' => 'smtp.gmail.com',
     'user' => 'xxx@gmail.com',
     'password' => 'password',

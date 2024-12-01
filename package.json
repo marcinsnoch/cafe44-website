@@ -1,24 +1,13 @@
 {
-  "name": "bariso-website",
+  "name": "cafe44",
   "version": "1.0.0",
-  "description": "bariso-website",
-  "main": "index.js",
+  "description": "Cafe44 website",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/msx83/bariso-website.git"
-  },
-  "keywords": [],
-  "author": "",
+  "author": "Marcin Snoch marcin.msx@gmail.com",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/msx83/bariso-website/issues"
-  },
-  "homepage": "https://github.com/msx83/bariso-website#readme",
   "devDependencies": {
     "bootstrap-sass": "^3.4.1"
-  },
-  "dependencies": {}
+  }
 }

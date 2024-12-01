@@ -3,12 +3,14 @@
 }
 
 .navbar {
-    transition: background 0.5s;
+    transition: all 0.5s;
 }
+
 .navbar-default {
-    background-image: linear-gradient(rgba(0,0,0,0.9), transparent);
+    background-image: linear-gradient(rgba(0,0,0,1), transparent);
     border: none;
 }
+
 .bg-dark {
     background: rgba(0, 0, 0, 0.9);
 }
@@ -18,17 +20,15 @@
     background-position: center;
     background-size: cover;
     height: 350px;
-
     .logo img {
         position: absolute;
         left: 0;
         right: 0;
-        top: 0;
-        padding-top: 80px;
+        top: 10vh;
         margin: 0 auto;
-        height: 250px;
+        padding-bottom: 50px;
+        height: 200px;
     }
-
     .triangles {
         height: 100.2%;
         position: relative;
@@ -65,17 +65,16 @@
     text-align: center;
     padding: 40px 0;
     text-shadow: 0 4px 4px #000;
-
     .content {
         display: flex;
         align-items: center;
         flex-wrap: wrap;
         justify-content: space-around;
         height: 100%;
-        .tekst {
+        p {
             font-style: italic;
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 2.5rem;
         }
         img {
             max-width: 400px;
@@ -132,9 +131,8 @@
     .header-img {
         height: 50vh;
         .logo img {
-            height: 300px;
+            height: 400px;
         }
-
     }
     .hero {
         .content {
@@ -153,7 +151,6 @@
     #contact {
         text-align: right;
     }
-
     #page-footer .address {
         text-align: right;
     }
